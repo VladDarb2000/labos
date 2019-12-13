@@ -27,24 +27,9 @@ TEST(SharedPtrTests_base, SimpleDestructor) {
 	*a = 1234;
 	SharedPtr<int> testingPtr(a);
 	testingPtr.~SharedPtr();
-	EXPECT_EQ(testingPtr.get(), nullptr);	
+	EXPECT_EQ(testingPtr.get(), nullptr);
 	EXPECT_EQ(testingPtr.use_count(), 0);
 	EXPECT_TRUE(!testingPtr);
-}
-
-TEST(SharedPtrTests_base, MemDestructor) {
-	int* a;
-	a = new int;
-	*a = 1234;
-	struct r {
-		int* lakmus;
-		r(int* f) {	lakmus = f;}
-		~r() { *lakmus = 1; }
-	};
-	r *r1 = new r(a);
-	SharedPtr<r> testingPtr(r1);
-	testingPtr.~SharedPtr();
-	EXPECT_EQ(*a,1);
 }
 
 TEST(SharedPtrTests_advanced, Copy) {

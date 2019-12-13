@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libsharedd.a  CMakeFiles/shared.dir/sources/SharedPtr.cpp.o
+/usr/bin/ranlib.exe libsharedd.a

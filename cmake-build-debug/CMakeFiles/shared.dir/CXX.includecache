@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SharedPtr.hpp
+utility
+-
+atomic
+-
+
+/cygdrive/c/probyem/laba333/sources/SharedPtr.cpp
+SharedPtr.hpp
+/cygdrive/c/probyem/laba333/sources/SharedPtr.hpp
+

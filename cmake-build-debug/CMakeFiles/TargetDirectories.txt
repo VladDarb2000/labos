@@ -1,0 +1,6 @@
+/cygdrive/c/probyem/laba333/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/probyem/laba333/cmake-build-debug/CMakeFiles/test.dir
+/cygdrive/c/probyem/laba333/cmake-build-debug/CMakeFiles/tests.dir
+/cygdrive/c/probyem/laba333/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/probyem/laba333/cmake-build-debug/CMakeFiles/shared.dir
+/cygdrive/c/probyem/laba333/cmake-build-debug/CMakeFiles/lr.dir
